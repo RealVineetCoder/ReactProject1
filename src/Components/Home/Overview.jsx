@@ -1,7 +1,6 @@
 import React from "react";
 import "../Css/Overview.css";
 import DoughnutChart from "./DoughnutChart";
-import Sidebar from "./Sidebar";
 import { FaArrowDown } from "react-icons/fa6";
 import { RiGroup3Line } from "react-icons/ri";
 import { LiaTasksSolid } from "react-icons/lia";

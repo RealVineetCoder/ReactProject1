@@ -4,5 +4,12 @@
   /* background-color: ; */
 }
 
+.gap-css{
+  display: flex;
+  align-items: center;
+  gap: 1;
+  /* className="flex items-center gap-1" */
+}
+
 
 
