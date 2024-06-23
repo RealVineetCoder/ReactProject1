@@ -14,7 +14,7 @@ const Navbar = () => {
             Chumed
           </button>
           <button className="px-2 py-1 bg-zinc-300 text-xs">
-            New Customer <span className="px-2">X</span>{" "}
+            New Customer <span className="px-2">X</span>
           </button>
           <button className="px-2 py-1 bg-zinc-300 text-xs">
             important <span className="px-2">X</span>

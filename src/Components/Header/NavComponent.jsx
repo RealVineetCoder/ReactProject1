@@ -15,7 +15,6 @@ const NavComponent = ({ values }) => {
     { name: "Time zone", Entry: "CST" },
     { name: "Account Access", Entry: "Open" },
   ];
-  // const {name , Entry} = values;
 
   return (
     <>
@@ -26,7 +25,7 @@ const NavComponent = ({ values }) => {
               key={index}
               className="flex flex-col justify-between items-center py-5 px-10"
             >
-              <h1 className="text-xs text-zinc-500 px-4">{item.name}</h1>
+              <h1 className="text-xs text-zinc-500 px-3 whitespace-nowrap">{item.name}</h1>
               <p className="mt-5 mb-5 font-bold">{item.Entry}</p>
             </div>
           );

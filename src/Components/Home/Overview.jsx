@@ -11,8 +11,6 @@ import { FaBook } from "react-icons/fa";
 
 const Overview = () => {
   return (
-    <div className="border">
-      <Sidebar />
       <div className="flex mb-5 ">
         <div className="box border mt-10 ml-10">
           <h1 className="font-bold text-lg ml-5 mt-5">Quick Actions</h1>
@@ -108,7 +106,7 @@ const Overview = () => {
         </div>
       </div>
       
-    </div>
+
     
   );
 };

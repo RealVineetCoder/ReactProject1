@@ -11,7 +11,7 @@ const Sidebar = () => {
     <div className="flex gap-20 ml-10 mt-5 font-semibold">
       <div className="flex items-center gap-1">
         <PiTelevisionSimpleLight />
-      <Link to="/Overview">Overview</Link>
+      <Link to="/">Overview</Link>
       </div>
 
       <div className="flex items-center gap-1">
